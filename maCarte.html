@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4918203be574422591340922264e767b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4918203be574422591340922264e767b" ></div>
+        
+</body>
+<script>    
+    
+            var map_4918203be574422591340922264e767b = L.map(
+                "map_4918203be574422591340922264e767b",
+                {
+                    center: [47.0510946, 5.0740568],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c3e2e866ff414bf4b2a6ba4a665917c2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var marker_23318057b1a345a99738b961313dfd35 = L.marker(
+                [47.0510946, 5.0740568],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_35f158cb7afb47f28741169ef335a218 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23318057b1a345a99738b961313dfd35.setIcon(icon_35f158cb7afb47f28741169ef335a218);
+        
+    
+        var popup_bebfd2f216eb4779a2303d8f938c58ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2beed8bc7db419cadbd8b53f8a15d76 = $(`<div id="html_a2beed8bc7db419cadbd8b53f8a15d76" style="width: 100.0%; height: 100.0%;">Bourgogne-Franche-Comté</div>`)[0];
+            popup_bebfd2f216eb4779a2303d8f938c58ae.setContent(html_a2beed8bc7db419cadbd8b53f8a15d76);
+        
+
+        marker_23318057b1a345a99738b961313dfd35.bindPopup(popup_bebfd2f216eb4779a2303d8f938c58ae)
+        ;
+
+        
+    
+    
+            var marker_e99b283eb0234650bed9413281191e6e = L.marker(
+                [47.465503350000006, 4.74812234575117],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_671dbbb27fed45ecacad5999ad9df7bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e99b283eb0234650bed9413281191e6e.setIcon(icon_671dbbb27fed45ecacad5999ad9df7bd);
+        
+    
+        var popup_3b4c20b8619944469a57919c451aa3da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33697a6ba8004e7dba3c18b79e97c01a = $(`<div id="html_33697a6ba8004e7dba3c18b79e97c01a" style="width: 100.0%; height: 100.0%;">Côte-d'Or</div>`)[0];
+            popup_3b4c20b8619944469a57919c451aa3da.setContent(html_33697a6ba8004e7dba3c18b79e97c01a);
+        
+
+        marker_e99b283eb0234650bed9413281191e6e.bindPopup(popup_3b4c20b8619944469a57919c451aa3da)
+        ;
+
+        
+    
+    
+            var marker_8c87004b79864d2c917d9cb8fdb3e9c2 = L.marker(
+                [47.06699155, 6.235622772820445],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_77a505bd29d84fc8b3429760e0b443c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c87004b79864d2c917d9cb8fdb3e9c2.setIcon(icon_77a505bd29d84fc8b3429760e0b443c7);
+        
+    
+        var popup_149720e4cfa64d0a90fb69a53412f69e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbe2c66d8ef54b05b7a18acb5e9cd8f0 = $(`<div id="html_bbe2c66d8ef54b05b7a18acb5e9cd8f0" style="width: 100.0%; height: 100.0%;">Doubs</div>`)[0];
+            popup_149720e4cfa64d0a90fb69a53412f69e.setContent(html_bbe2c66d8ef54b05b7a18acb5e9cd8f0);
+        
+
+        marker_8c87004b79864d2c917d9cb8fdb3e9c2.bindPopup(popup_149720e4cfa64d0a90fb69a53412f69e)
+        ;
+
+        
+    
+    
+            var marker_d5d0c605ac854bc8892bb11aacbf79f4 = L.marker(
+                [46.783362499999996, 5.783285726354901],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_99b2a108c9ea4e9590772311ad9051b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5d0c605ac854bc8892bb11aacbf79f4.setIcon(icon_99b2a108c9ea4e9590772311ad9051b5);
+        
+    
+        var popup_8b14066446b64f538c9b3f0bd9e399bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d1b386cfe7341209f65a7cfc34c1ac5 = $(`<div id="html_1d1b386cfe7341209f65a7cfc34c1ac5" style="width: 100.0%; height: 100.0%;">Jura</div>`)[0];
+            popup_8b14066446b64f538c9b3f0bd9e399bf.setContent(html_1d1b386cfe7341209f65a7cfc34c1ac5);
+        
+
+        marker_d5d0c605ac854bc8892bb11aacbf79f4.bindPopup(popup_8b14066446b64f538c9b3f0bd9e399bf)
+        ;
+
+        
+    
+    
+            var marker_cc79767dbecf4596acf1c70d3dcd222f = L.marker(
+                [47.11969705, 3.5448897947227174],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_5200b2c4f5574219a931c0dcd61288b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc79767dbecf4596acf1c70d3dcd222f.setIcon(icon_5200b2c4f5574219a931c0dcd61288b4);
+        
+    
+        var popup_463fc7200957433c81855a4eef4fcf6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b8a6ab4f39c439ab89d22418881afe3 = $(`<div id="html_1b8a6ab4f39c439ab89d22418881afe3" style="width: 100.0%; height: 100.0%;">Nièvre</div>`)[0];
+            popup_463fc7200957433c81855a4eef4fcf6f.setContent(html_1b8a6ab4f39c439ab89d22418881afe3);
+        
+
+        marker_cc79767dbecf4596acf1c70d3dcd222f.bindPopup(popup_463fc7200957433c81855a4eef4fcf6f)
+        ;
+
+        
+    
+    
+            var marker_0be36b567bcb4be290f6e3dd393b874e = L.marker(
+                [47.63842335, 6.095114088932768],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_c50fbbab59d7468c98428d66b94ebc54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0be36b567bcb4be290f6e3dd393b874e.setIcon(icon_c50fbbab59d7468c98428d66b94ebc54);
+        
+    
+        var popup_9e27869521614271bd77a3362dac1c13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cb544d0eff244fcbddebef1d2969369 = $(`<div id="html_5cb544d0eff244fcbddebef1d2969369" style="width: 100.0%; height: 100.0%;">Haute-Saône</div>`)[0];
+            popup_9e27869521614271bd77a3362dac1c13.setContent(html_5cb544d0eff244fcbddebef1d2969369);
+        
+
+        marker_0be36b567bcb4be290f6e3dd393b874e.bindPopup(popup_9e27869521614271bd77a3362dac1c13)
+        ;
+
+        
+    
+    
+            var marker_4c4fd8da2c9e403f8463c8a2df43a08a = L.marker(
+                [47.63842335, 6.095114088932768],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_3c0ebc70a4024b4183cc5d78e621d9bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c4fd8da2c9e403f8463c8a2df43a08a.setIcon(icon_3c0ebc70a4024b4183cc5d78e621d9bd);
+        
+    
+        var popup_6ae269ab08224057860db9609a9487ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_212785787dc642a5ab4d03c5dcbe0c6d = $(`<div id="html_212785787dc642a5ab4d03c5dcbe0c6d" style="width: 100.0%; height: 100.0%;">Haute-Saône</div>`)[0];
+            popup_6ae269ab08224057860db9609a9487ba.setContent(html_212785787dc642a5ab4d03c5dcbe0c6d);
+        
+
+        marker_4c4fd8da2c9e403f8463c8a2df43a08a.bindPopup(popup_6ae269ab08224057860db9609a9487ba)
+        ;
+
+        
+    
+    
+            var marker_3064fa9e09f44567acf539da0ef0432a = L.marker(
+                [46.6557086, 4.55855481835173],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_75d4ebfef6c34175bd948f2f83082507 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3064fa9e09f44567acf539da0ef0432a.setIcon(icon_75d4ebfef6c34175bd948f2f83082507);
+        
+    
+        var popup_b5efa657b97b4b42a7b6ef8d07a4fa48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78539f36f6c24f12bcafb07486dcbbd4 = $(`<div id="html_78539f36f6c24f12bcafb07486dcbbd4" style="width: 100.0%; height: 100.0%;">Saône-et-Loire</div>`)[0];
+            popup_b5efa657b97b4b42a7b6ef8d07a4fa48.setContent(html_78539f36f6c24f12bcafb07486dcbbd4);
+        
+
+        marker_3064fa9e09f44567acf539da0ef0432a.bindPopup(popup_b5efa657b97b4b42a7b6ef8d07a4fa48)
+        ;
+
+        
+    
+    
+            var marker_16e561641c794eac857f55188ac648b3 = L.marker(
+                [47.85512575, 3.6450439257238765],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_8423f55f5ba940468b6a27bf3f4bd7a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16e561641c794eac857f55188ac648b3.setIcon(icon_8423f55f5ba940468b6a27bf3f4bd7a4);
+        
+    
+        var popup_4349cf897b2c454ca9e1203478dd8558 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_476a344875d04f24b28a253a6a955924 = $(`<div id="html_476a344875d04f24b28a253a6a955924" style="width: 100.0%; height: 100.0%;">Yonne</div>`)[0];
+            popup_4349cf897b2c454ca9e1203478dd8558.setContent(html_476a344875d04f24b28a253a6a955924);
+        
+
+        marker_16e561641c794eac857f55188ac648b3.bindPopup(popup_4349cf897b2c454ca9e1203478dd8558)
+        ;
+
+        
+    
+    
+            var marker_7ba675911a0a4963aa2edaced11716d0 = L.marker(
+                [47.62923095, 6.899301156710882],
+                {}
+            ).addTo(map_4918203be574422591340922264e767b);
+        
+    
+            var icon_ca52eef1070f415f806e1bbd8df98db8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ba675911a0a4963aa2edaced11716d0.setIcon(icon_ca52eef1070f415f806e1bbd8df98db8);
+        
+    
+        var popup_ad84acbcb52e4d2c97e4c122023e6dc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06440e780c4e4ac9bad0e0e41b9d2406 = $(`<div id="html_06440e780c4e4ac9bad0e0e41b9d2406" style="width: 100.0%; height: 100.0%;">Territoire de Belfort</div>`)[0];
+            popup_ad84acbcb52e4d2c97e4c122023e6dc7.setContent(html_06440e780c4e4ac9bad0e0e41b9d2406);
+        
+
+        marker_7ba675911a0a4963aa2edaced11716d0.bindPopup(popup_ad84acbcb52e4d2c97e4c122023e6dc7)
+        ;
+
+        
+    
+</script>
